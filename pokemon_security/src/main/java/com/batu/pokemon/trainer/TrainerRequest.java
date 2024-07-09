@@ -4,7 +4,7 @@ import lombok.Builder;
 
 @Builder
 public record TrainerRequest
-        (String firstName, String lastName) {
+        (String firstName,String lastName,String role,String pw,int active,String userId) {
 
 
 }

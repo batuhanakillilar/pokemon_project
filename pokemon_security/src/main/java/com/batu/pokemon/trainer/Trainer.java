@@ -21,5 +21,9 @@ public class Trainer {
     private Integer id;
     private String firstName;
     private String lastName;
+    private String role;
+    private String pw;
+    private int active;
+    private String userId;
 
 }
