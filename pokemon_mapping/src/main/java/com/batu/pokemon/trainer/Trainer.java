@@ -1,5 +1,6 @@
 package com.batu.pokemon.trainer;
 
+import com.batu.pokemon.gym.Gym;
 import jakarta.persistence.*;
 import lombok.*;
 

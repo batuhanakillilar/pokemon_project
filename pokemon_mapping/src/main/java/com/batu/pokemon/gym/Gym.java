@@ -1,6 +1,7 @@
-package com.batu.pokemon.trainer;
+package com.batu.pokemon.gym;
 
 
+import com.batu.pokemon.trainer.Trainer;
 import jakarta.persistence.*;
 import lombok.*;
 
@@ -31,6 +32,7 @@ public class Gym {
                     CascadeType.REFRESH,CascadeType.DETACH})
     private List<Trainer> trainers;
 
+
     public void add(Trainer trainer) {
 
         if(trainers == null){
@@ -40,4 +42,5 @@ public class Gym {
 
             trainers.add(trainer);
     }
+
 }
